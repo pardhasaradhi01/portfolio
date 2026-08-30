@@ -290,3 +290,10 @@ img {
         font-size: 15px;
     }
 }
+
+
+@media (max-width: 600px) {
+    body {
+        background-color: red !important;
+    }
+}
