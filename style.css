@@ -157,3 +157,136 @@ img {
 
     padding: 5px 20px;
 }
+
+
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 600px) {
+
+    /* Navigation */
+    nav {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav ul {
+        padding: 10px 5px;
+        gap: 12px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        font-size: 0.9rem;
+    }
+
+
+    /* Main headings */
+    h1 {
+        font-size: 2.5rem;
+        padding: 20px 10px;
+    }
+
+
+    /* About Me section */
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: auto;
+        padding: 50px 20px;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+
+    /* About Me text */
+    .aboutme {
+        max-width: 100%;
+    }
+
+    .aboutme h2 {
+        font-size: 2rem !important;
+    }
+
+    .aboutme p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+
+    /* Profile image */
+    .mypic {
+        order: 0;
+        justify-content: center;
+    }
+
+    img {
+        width: 250px;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* Skills section */
+    .skill-container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 25px;
+        margin-top: 0;
+    }
+
+
+    /* Skill boxes */
+    .html,
+    .css,
+    .java-script {
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+        font-size: 25px;
+        box-sizing: border-box;
+    }
+
+
+    /* Education section */
+    .education-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 25px;
+        margin: 50px 20px;
+    }
+
+
+    /* Education boxes */
+    .school,
+    .college,
+    .tuition,
+    .engineering {
+        width: 100%;
+        max-width: none;
+        height: 100px;
+        margin-left: 0;
+        box-sizing: border-box;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    /* Contact section */
+    .contact-container {
+        width: auto;
+        margin: 30px 20px 50px 20px;
+        padding: 10px;
+    }
+
+    .contact-container p {
+        padding: 5px 10px;
+        word-wrap: break-word;
+        font-size: 15px;
+    }
+}
