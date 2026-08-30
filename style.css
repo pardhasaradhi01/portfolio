@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    background-color: #BDE8F5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0F2854;
+    position: fixed;
+    width: 100%;
+    
+}
+
+ul {
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+nav ul li a {
+    color: #BDE8F5;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+
+/* About Me Section */
+.container {
+    display: flex;
+    gap: 100px;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+   
+}
+
+
+/* About Me Heading */
+h1 {
+    margin-top: 0;
+    text-align: center;
+    padding: 30px;
+    font-size: 5rem;
+    color: #6d9df0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+                 background-color: #1C4D8D;
+}
+
+
+/* Profile Image */
+img {
+    width: 600px;
+   
+}
+
+
+/* Image Section */
+.mypic {
+    order: -1;
+    display: flex;
+   
+}
+
+
+/* Text Section */
+.aboutme {
+    max-width: 500px;
+}
+
+.skill-container{
+    display: flex;
+    padding: 100px 100px;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    background-color:#BDE8F5;
+    margin-top: 2   00px;
+
+    
+}
+
+.html,.css,.java-script{
+
+    background-color: #5ca1fa;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    border:5px solid rgb(26, 141, 234)
+    
+
+}
+
+
+
+.education-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 50vh;
+    gap: 100px;
+
+    margin:100px 0 100px 0;
+    
+}
+
+.school,.college,.tuition,.engineering{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5ca1fa;
+    max-width: 500px;
+    height: 100px;
+    margin-left: 2.5rem;
+    border: 5px solid #387dd8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+
+.contact-container {
+    border: 4px solid #2279ca;
+    padding: 10px;
+    width: 200px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.contact-container p{
+
+    padding: 5px 20px;
+}
